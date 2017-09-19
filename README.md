@@ -5,10 +5,10 @@ This project answers [this briefing](https://github.com/becodeorg/BXLCentral/tre
 
 
 
-## to-do
+## To-do
 
 - Make the page `<title>` tag content dynamic, optimized for SEO.
-- Convert the router to OOP. For instance, you could have a `Page` object and one method per page, so you could write :
+- Convert the router to OOP. For instance, you could have a `Page` object and one method per page, so you could write...  
 
 ```php
 Page->login();
