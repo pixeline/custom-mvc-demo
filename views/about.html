@@ -1,0 +1,18 @@
+<h1>About me</h1>
+
+
+<?php
+
+if ( isset($_SESSION['login']) && $_SESSION['login'] == 'ok'){
+
+?>
+  <h2>Bonjour Monsieur Le Gars </h2>
+  <?php
+
+} else {
+  ?>
+    <h2>Bonjour L'inconnu </h2>
+    <?php
+}
+
+?>
